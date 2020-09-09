@@ -37,7 +37,7 @@ public with sharing class CreateAccounts {
             ca.c21pay__Routing_Number__c = '063100277';
             ca.c21pay__Account_Number__c = String.valueOf(acnum);
             ca.c21pay__Payment_Type__c = 'ACH';
-            ca.c21pay__Status__c = 'Pending';
+            ca.c21pay__Status__c = 'Closed';
             ca.c21pay__Is_Default__c = true;
             ca.c21pay__Account_Type__c = 'Checking';
             ca.c21pay__Entry_Class__c = 'CCD - Corporate Credit or Debit';
